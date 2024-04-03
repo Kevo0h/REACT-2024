@@ -1,60 +1,110 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios de Reparación y Mantenimiento de Casas</title>
-    <link rel="stylesheet" href="style.css">
+    <title>MI CV</title>
+
 </head>
+
 <body>
     <!-- Página de Inicio -->
     <header>
-        <h1>Bienvenido a nuestros servicios de reparación y mantenimiento de casas</h1>
-        <!-- Proximamente un Carrousel mostrando los servicios -->
+        <h1>CURRICULUM VITAE: PEPE ARGENTO</h1>
+
         <nav>
             <ul>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <H5 style="
+                margin: 0px;">MENU DE NAVEGACION</H5>
+                <li><a href="#personales">Sobre Mi</a></li>
+                <li><a href="#estudios">Estudios</a></li>
+                <li><a href="#trabajos">Trabajos Realizados</a></li>
+
+                <li><a href="#contacto">Contactar</a></li>
             </ul>
         </nav>
     </header>
+    <br>
+    <br>
 
-    <!-- Servicios -->
-    <section id="servicios">
-        <h2>Nuestros Servicios</h2>
+    <!-- Datos Personales -->
+    <section id="personales">
+        <h2>Sobre Mi</h2>
+        <img src="imagen.jpg" alt="Imagen CV" srcset="">
         <ul>
-            <li>Plomería</li>
-            <li>Electricidad</li>
-            <li>Carpintería</li>
-            <li>Pintura</li>
-   
+            <li> Pepe Argento</li>
+            <li> 45 años</li>
+            <li> Ingeniero en sistemas</li>
+            <p> Me encanta mi profesion!</p>
         </ul>
-        <p>Descripción breve de los servicios...</p>
-        <a href="#contacto">Solicitar presupuesto</a>
-    </section>
 
-    <!-- Sobre Nosotros -->
-    <section id="sobre-nosotros">
-        <h2>Sobre Nosotros</h2>
-        <p>Información sobre la empresa...</p>
-        <p>Testimonios de clientes satisfechos...</p>
-    </section>
 
-    <!-- Galería de Proyectos -->
-    <section id="galeria-proyectos">
-        <h2>Galería de Proyectos</h2>
-        <p>Imágenes de trabajos realizados anteriormente...</p>
-        <img src="..\img\electricista.jpg" alt="" srcset="">
-        <img src="..\img\plomero.jpg" alt="" srcset="">
-        <img src="..\img\pintor.jpg" alt="" srcset="">
-        <img src="..\img\carpintero.jpg" alt="" srcset="">
     </section>
+    <br>
+    <br>
 
+
+    <!-- estudios -->
+    <section id="estudios">
+        <H1>MIS ESTUDIOS</H1>
+        <div>
+            <H2> Estudio numero 1</H2>
+            <H3>DESDE: XXX HASTA: XXX</H3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dicta maiores dolores magni ex optio hic
+                eveniet error natus fuga. Iusto repudiandae delectus aperiam at perspiciatis odio assumenda, explicabo
+                ad.</P>
+        </div>
+        <div>
+            <H2> Estudio numero 2</H2>
+            <H3>DESDE: XXX HASTA: XXX</H3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dicta maiores dolores magni ex optio hic
+                eveniet error natus fuga. Iusto repudiandae delectus aperiam at perspiciatis odio assumenda, explicabo
+                ad.</P>
+        </div>
+        <div>
+            <H2> Estudio numero 3</H2>
+            <H3>DESDE: XXX HASTA: XXX</H3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dicta maiores dolores magni ex optio hic
+                eveniet error natus fuga. Iusto repudiandae delectus aperiam at perspiciatis odio assumenda, explicabo
+                ad.</P>
+        </div>
+    </section>
+<br>
+<br>
+    <!-- Trabajos -->
+    <section id="trabajos">
+        <h1>MIS TRABAJOS</h1>
+        <div>
+            <H2> TRABAJO 1</H2>
+            <H3>DESDE: XXX - HASTA: XXX</H3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dicta maiores dolores magni ex optio hic
+                eveniet error natus fuga. Iusto repudiandae delectus aperiam at perspiciatis odio assumenda, explicabo
+                ad.</P>
+        </div>
+        <div>
+            <H2> TRABAJO 2</H2>
+            <H3>DESDE: XXX - HASTA: XXX</H3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dicta maiores dolores magni ex optio hic
+                eveniet error natus fuga. Iusto repudiandae delectus aperiam at perspiciatis odio assumenda, explicabo
+                ad.</P>
+        </div>
+        <div>
+            <H2> TRABAJO 3 </H2>
+            <H3>DESDE: XXX - ACTUALIDAD</H3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dicta maiores dolores magni ex optio hic
+                eveniet error natus fuga. Iusto repudiandae delectus aperiam at perspiciatis odio assumenda, explicabo
+                ad.</P>
+        </div>
+    </section>
+<br>
+<br>
     <!-- Página de Contacto -->
-    <footer id="contacto">
-        <h2>Contacto</h2>
-        <form action="enviar.php" method="post">
+
+
+<section id="contacto">
+        <h1>Quieres contactarme?</h1>
+        <form action="" method="">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required><br>
             <label for="email">Email:</label>
@@ -63,12 +113,13 @@
             <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
             <button type="submit">Enviar</button>
         </form>
-        <p>Información de contacto...</p>
-    </footer>
+    </section>
+  
 
 
     <footer>
-        <p>Política de Privacidad y Términos de Uso...</p>
+        <p>Política de Privacidad y Términos de Uso</p>
     </footer>
 </body>
+
 </html>

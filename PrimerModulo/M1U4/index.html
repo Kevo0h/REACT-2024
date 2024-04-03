@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios de Reparación y Mantenimiento de Casas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Página de Inicio -->
+    <header>
+        <h1>Bienvenido a nuestros servicios de reparación y mantenimiento de casas</h1>
+        <!-- Proximamente un Carrousel mostrando los servicios -->
+        <nav>
+            <ul>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Servicios -->
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <ul>
+            <li>Plomería</li>
+            <li>Electricidad</li>
+            <li>Carpintería</li>
+            <li>Pintura</li>
+   
+        </ul>
+        <p>Descripción breve de los servicios...</p>
+        <a href="#contacto">Solicitar presupuesto</a>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="sobre-nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Información sobre la empresa...</p>
+        <p>Testimonios de clientes satisfechos...</p>
+    </section>
+
+    <!-- Galería de Proyectos -->
+    <section id="galeria-proyectos">
+        <h2>Galería de Proyectos</h2>
+        <p>Imágenes de trabajos realizados anteriormente...</p>
+        <img src="..\img\electricista.jpg" alt="" srcset="">
+        <img src="..\img\plomero.jpg" alt="" srcset="">
+        <img src="..\img\pintor.jpg" alt="" srcset="">
+        <img src="..\img\carpintero.jpg" alt="" srcset="">
+    </section>
+
+    <!-- Página de Contacto -->
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <form action="enviar.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Información de contacto...</p>
+    </footer>
+
+
+    <footer>
+        <p>Política de Privacidad y Términos de Uso...</p>
+    </footer>
+</body>
+</html>
