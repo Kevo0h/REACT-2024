@@ -1,0 +1,136 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------MENU-----------*/
+header {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/*--------INICIO---------*/
+.inicio{
+height: 900px;
+background-color: whitesmoke;
+display: flex;
+}
+
+.img-inicio{
+    padding-top: 100px;
+    padding-left: 20px;
+    height: 80%;
+    width: 70%;
+}
+
+.inicio p{
+    padding-top: 200px;
+    font-size: larger;
+    -webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(100%);
+              transform: translateX(100%);
+    }
+    100% {
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+    }
+  }
+
+
+
+
+/*-------SERVICIOS-------*/
+.section-servicios{
+    margin-top:100px;
+}
+.section-servicios h1{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-principal{
+    height: 800px;
+    background-color: whitesmoke;
+    display: flex;
+    
+}
+
+.contenedor-hijo {
+    height: 90%;
+    width: 35%;
+    background-color: black;
+    margin: 40px;
+}
+
+.contenedor-hijo h1{
+   color: white;
+}
+.contenedor-hijo p{
+    color: white;
+  }
+
+  
+/*-------FORMULARIO-------*/
+.section-formulario{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+
+}
+.section-formulario h2{
+ margin-top: 50px;
+
+}
+
+.section-formulario form{
+height: 80%;
+
+}
+
+
+.section-formulario form div input{
+    width: 100%;
+    
+    }
+    
+.section-formulario form div textarea{
+    width: 100%;
+    
+    }

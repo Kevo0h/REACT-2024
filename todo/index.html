@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#section-inicio">INICIO</a></li>
+                <li><a href="#section-servicios">SERVICIOS</a></li>
+                <li><a href="#section-formulario">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+            <section class="section-inicio" id="section-inicio">
+
+                <div class="inicio">
+                    <img class="img-inicio" src="img/img-inicio.jpg" alt="" srcset="">
+                    <p>
+                        Somos una empresa dedicada al rubro informático, comprometida a ofrecer soluciones
+                        personalizadas que se adaptan a las necesidades específicas de cada cliente. Con más de 10 años
+                        de experiencia en el mercado, hemos desarrollado una sólida reputación por nuestra excelencia y
+                        fiabilidad. Nuestro equipo de expertos está constantemente actualizado con las últimas
+                        tecnologías para garantizar que nuestros clientes reciban los mejores servicios y productos
+                        disponibles. Ya sea que necesites desarrollo de software, soporte técnico, consultoría en IT o
+                        soluciones de infraestructura, estamos aquí para ayudarte a alcanzar tus objetivos con eficacia
+                        y eficiencia.<br><strong>Tu éxito es nuestro compromiso.</strong>
+                    </p>
+
+                </div>
+            </section>
+
+
+            <section class="section-servicios" id="section-servicios">
+                <h1> DIFERENTES NIVELES DE SERVICIOS QUE SE ADAPTAN A TU NECESIDAD</h1>
+                <div class="contenedor-principal">
+
+                    <div class="contenedor-hijo">
+                        <img src="img/img1.png" alt="" srcset="">
+                        <h1>NIVEL 1</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ex nam quam iure, qui
+                            sint optio ullam saepe exercitationem consequuntur minus, vitae vel deleniti quisquam
+                            repudiandae? Fugiat nemo doloribus magnam?</p>
+                    </div>
+                    <div class="contenedor-hijo">
+                        <img src="img/img1.png" alt="" srcset="">
+                        <h1>NIVEL 2</h1>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam a deleniti eum aut veritatis
+                            ad illum labore, asperiores dicta saepe quia quasi ab corporis omnis fugiat voluptatibus
+                            inventore aperiam dolor!</p>
+                    </div>
+                    <div class="contenedor-hijo">
+                        <img src="img/img1.png" alt="" srcset="">
+                        <h1>NIVEL 3</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero odio maiores aspernatur labore
+                            excepturi dolorem veritatis nostrum provident non adipisci quia deserunt, molestiae
+                            architecto, quisquam ut, saepe sint ipsa temporibus!</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-formulario" id="section-formulario">
+                <h2>Formulario de Contacto</h2>
+                <form action="/submit_form" method="post">
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div>
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" required>
+                    </div>
+                    <div>
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </section>
+</body>
+
+</html>
